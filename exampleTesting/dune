@@ -1,0 +1,3 @@
+(tests
+ (names qtest_length)
+ (libraries qcheck-core qcheck-core.runner))

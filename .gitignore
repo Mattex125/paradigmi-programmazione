@@ -1,1 +1,16 @@
 *.prompt.md
+
+# dune: cartella di build e file generati
+_build/
+*.install
+
+# OCaml: file compilati a mano (ocamlc / ocamlopt)
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cma
+*.cmt
+*.cmti
+*.o
+*.a
