@@ -1,0 +1,3 @@
+(test
+ (name alberi)
+ (libraries qcheck-core qcheck-core.runner))

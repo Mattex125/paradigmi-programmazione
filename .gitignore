@@ -2,7 +2,12 @@
 
 # dune: cartella di build e file generati
 _build/
+_opam/
 *.install
+
+# Eseguibili compilati senza estensione
+L09-qcheck/codice/associative_append/append
+L09-qcheck/codice/exercises
 
 # OCaml: file compilati a mano (ocamlc / ocamlopt)
 *.cmi

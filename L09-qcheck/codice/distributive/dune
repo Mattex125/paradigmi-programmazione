@@ -1,0 +1,3 @@
+(test
+ (name false_distr)
+ (libraries qcheck-core qcheck-core.runner))

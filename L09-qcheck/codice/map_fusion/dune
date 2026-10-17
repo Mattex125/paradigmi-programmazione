@@ -1,0 +1,3 @@
+(test
+ (name  map_fusion)
+ (libraries qcheck-core qcheck-core.runner))

@@ -1,0 +1,3 @@
+(test
+ (name reverse)
+ (libraries qcheck-core qcheck-core.runner))

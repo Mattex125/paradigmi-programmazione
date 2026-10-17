@@ -1,0 +1,3 @@
+(tests
+ (names map mapg)
+ (libraries qcheck-core qcheck-core.runner))
