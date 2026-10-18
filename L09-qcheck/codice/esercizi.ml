@@ -46,4 +46,6 @@ let example_3 =
       chiedervi PRIMA di scrivere le proprietà, per accorgervi del problema?
       La risposta non è «provare più casi». *)
 
-let () = exit (QCheck_base_runner.run_tests_main [ example_3 ])
+let () =
+      if not !Sys.interactive then
+            exit (QCheck_base_runner.run_tests_main [ example_3 ])
